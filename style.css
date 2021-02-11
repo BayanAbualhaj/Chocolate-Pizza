@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+nav ,header,article,section, footer{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul {
+    float: right;
+}
+
+nav{
+    border-bottom: solid 3px;
+    padding-bottom: 20px;
+}
+
+#section{
+    margin-top: 5%;
+    border-top: solid 3px;
+    padding-top: 10px;
+}
+
+#section img {
+    float: left;
+}
+
+#section p{
+    display: inline-block;
+}
+
+
+button{
+    background: rgb(241, 59, 46);
+    float:right;
+    padding: 5px;
+    margin-right: 150px;
+}
+
+.print{
+    float: right;
+}
+
+#list{
+    background-image: url(img/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+
+#pizza{
+    width: 100%;
+}
+
+#ul2{
+    float: right;
+    width: 50%;
+    margin-top: -135px;
+    margin-left: 0%;
+}
+
+#ul1{
+    width: 50%;
+    margin-right: 0%;
+}
+
+#ul1,#ul2{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    color: rgb(194, 193, 193);
+}
